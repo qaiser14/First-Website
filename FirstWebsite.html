@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--First website design started building from 28 February 2021-->
+
+<head>
+    <script src="https://kit.fontawesome.com/f8d49065f3.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+
+    <style>
+
+    *{
+        
+        margin: 0;
+        padding: 0;
+
+    }
+    
+    body{
+        /* overflow-x: hidden; */
+    }
+
+    #main{
+
+    width: 100%;
+    height: 120vh;
+    background-image: url(./images/Bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    }
+
+
+    #logo{
+
+        margin-left: 110px;
+        position: relative; top: 40px;  
+        display: inline-block;
+    }
+
+    #nav{
+
+        display: inline-block;
+        list-style: none;
+        position: relative;
+        left: 290px;
+        top: 0px;
+    }
+
+    #navlist{
+
+        display: inline-block;
+        padding: 20px;
+    }
+    
+    #cursor{
+
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    
+    #cursor:hover{
+      
+        color: yellow;
+
+    }
+
+    #content{
+
+        height: 300px;
+        width: 960px;
+        /* border: 2px solid;  */
+        margin: auto;
+        position: relative; top: 260px;
+    }
+
+    #contentHeading{
+        color: white;
+        font-size: 82px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-left: 14px;
+        
+    }
+
+    #dot{
+        color: yellow;
+    }
+
+    #about{
+        width: 100%;
+        height: 400px;
+        /* border: 2px solid; */
+    }
+
+    #button1{
+
+        width: 240px;
+        height: 55px;
+        border: 2px solid white;
+        background-color: transparent;
+        margin-left: 220px;
+        margin-top: 70px;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+    }
+
+    #button1:hover{
+
+        background-color: lightsteelblue
+        
+    }
+
+    #button2{
+
+        width: 240px;
+        height: 55px;
+        background-color: yellow;
+        margin-left: 497px;
+        position: relative;
+        top: -56px;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+
+    #button2:hover{
+
+        background-color: #337ab7;
+    }
+
+    #aboutHeading{
+
+        margin-left: 45%;
+        margin-top: 45px;
+        font-size: 40px;
+        font-weight: bold;
+        color:#545454;
+
+        }
+
+        #strip3Bars{
+
+        height: 150px;
+        width: 100%;
+        /* border: 2px solid; */
+        margin-top: 60px;
+        }
+
+        /* typography box 1 */
+         #Typography{
+
+        height: 100px;
+        width: 380px;
+        /* border: 2px solid; */
+        display: inline-block;
+        margin-left: 30px;
+        }
+
+        #SmallBox1{
+
+        height: 25px;
+        width: 70px;
+        background-color: #F18B6D;
+        border-radius: 3px;
+        margin-left: 52%;
+        }
+
+      
+        #Typography1{
+
+        height: 100px;
+        width: 380px;
+        /* border: 2px solid; */
+        /* margin-top: -25px; */
+        display: inline-block;
+        margin-left: 60px;
+        }
+
+        #SmallBox2{
+
+        height: 25px;
+        width: 70px;
+        background-color: #F1D204;
+        border-radius: 3px;
+        margin-left: 65%;
+        }
+
+        #Typography2{
+
+        height: 100px;
+        width: 380px;
+        /* border: 2px solid; */
+        /* margin-top: -25px; */
+        display: inline-block;
+        margin-left: 60px;
+        }
+
+        #SmallBox3{
+
+        height: 25px;
+        width: 70px;
+        background-color: #6A4D8A;
+        border-radius: 3px;
+        margin-left: 76%;
+        }
+
+        #Aicon{
+
+            height: 20px;
+            width: 20px;
+            /* border: 2px solid ; */
+            margin-top: -32px;
+            margin-left: 33px;
+        }
+
+        .fa-font{
+
+            font-size: 16px;
+            color: #F18B6D
+
+        }
+
+        #pencilIcon{
+
+            height: 20px;
+            width: 20px;
+            /* border: 2px solid ; */
+            margin-top: -20px;
+            margin-left: 474px;
+        }
+
+        .fa-pencil{
+
+            font-size: 16px;
+            color: #F1D204; 
+        }
+
+        #devIcon{
+
+            height: 20px;
+            width: 20px;
+            /* border: 2px solid ;  */
+            margin-top: -20px;
+            margin-left: 916px;
+
+        }
+
+        .fa-code{
+
+            font-size: 16px;
+            color: #6A4D8A;
+        }
+
+        #projects{
+
+            height: 200px;
+            width: 100%;
+            /* border: 2px solid; */
+            background-color:#F1F1F1;
+        }
+
+
+        #picsRow{
+
+            width: 100%;
+            height: 340px;
+            /* border: 2px solid; */
+        }
+
+        #purpleBackground{ 
+
+            width: 100%;
+            height: 650px;
+            background-color: #694B87
+
+        } 
+
+        #testimonials{
+
+            height: 60px;
+            width: 300px;
+            /* border: 2px solid; */
+            margin-left: 520px;
+            position: relative; top: 50px;
+
+        }
+
+        #mikeMPic{
+
+            height: 150px;
+            width: 150px;
+            /* border: 2px solid; */
+            margin-left: 590px;
+            margin-top: 100px;
+        }
+
+        #mike1{
+
+            width: 150px;
+            height: 150px;
+            border-radius: 45%;
+        }
+
+        #mikeWords{
+
+            width: 900px;
+            height: 150px;
+            /* border: 2px solid; */
+            margin-top: 80px;
+            margin-left: 225px;
+        }
+
+
+        #mikeName{
+
+            width: 140px;
+            height: 40px;
+            /* border: 2px solid; */
+            margin-left: 600px;
+            margin-top: 20px;
+        }
+
+        #Services{
+
+            width: 100%;
+            height: 450px;
+            background-color: #FFFFFF;
+            /* border: 2px solid; */
+
+        }
+
+        #webDesign{
+
+            width: 30%;
+            height: 260px;
+            /* border: 2px solid; */
+            margin-left: 15px;
+            display: inline-block;
+        }
+
+        #pencil2{
+
+            width: 50px;
+            height: 40px;
+            /* border: 2px solid; */
+            margin-left: 170px;
+            margin-top: 30px;
+        }
+
+        #pencil2Icon{
+
+            font-size: 35px;
+            color: #F18B6D;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        #webDesignLogo{
+
+            height: 35px;
+            width: 250px;
+            /* border: 2px solid; */
+            margin-left: 110px;
+            margin-top: 5px;
+        }
+        
+        #webDesign2{
+
+        width: 30%;
+        height: 260px;
+        /* border: 2px solid; */
+        margin-left: 35px;
+        display: inline-block;
+
+        }
+        #webDesign3{
+
+        width: 30%;
+        height: 260px;
+        /* border: 2px solid; */
+        margin-left: 35px;
+        display: inline-block;
+        }
+
+        #latestNews{
+
+            width: 100%;
+            height: 900px;
+            /* border: 2px solid; */
+            background-color: #222F36;
+            /* margin-top: -80px; */
+        }
+
+        #newsHeading{
+
+            width: 240px;
+            height: 60px;
+            /* border: 2px solid; */
+            margin-left: 550px;
+            position: relative; top: 40px;
+        }
+
+        #seeblogButton{
+
+            width: 170px;
+            height: 50px;
+            background-color: #f1d204;
+            margin-left: 600px;
+            margin-top: 40px;
+            font-size: 16px;
+            color: #fff;
+            font-family: sans-serif;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            
+        }
+
+        #seeblogButton:hover{
+
+            background-color:#337ab7;
+        }
+
+
+        #chevronCircle{
+
+            margin-left: -100px;
+            margin-top: 0px;
+            display: inline-block;
+        }
+
+        #landscape1{
+
+            height: 520px;
+            width: 350px;
+            border: 2px solid;
+            margin-top: 30px;
+            background-color: #FFFFFF;
+            margin-left: 50px;
+            display: inline-block;
+        }
+
+        #land1{
+
+            width: 350px;
+        }
+
+        #land1Heading1{
+
+            color: #5e5e5e;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+
+        #land1Heading1:hover{
+
+            color: #F2DA7D;
+        }
+
+        #L1hov{
+
+            cursor: pointer;
+        }
+        
+        .fa-chevron-circle-right:hover{
+
+            color: #337ab7 !important;
+            
+        }
+
+        #landscape2{
+
+        height: 540px;
+        width: 350px;
+        border: 2px solid;
+        margin-top: 40px;
+        background-color: #FFFFFF;
+        margin-left: 30px;
+        display: inline-block;
+
+        }
+
+        #landscapeBox3{
+
+        height: 620px;
+        width: 90%;
+        /* border: 2px solid; */
+        margin-left: 40px;
+
+        }
+
+        #landscape3{
+
+        height: 520px;
+        width: 350px;
+        border: 2px solid;
+        margin-top: 40px;
+        background-color: #FFFFFF;
+        margin-left: 30px;
+        display: inline-block;
+
+        }
+
+        #yellownum{
+
+            height:250px;
+            width: 100%;
+            /* border: 2px solid; */
+            background-color: #E8BF01;
+        }
+
+        #Teams{
+
+            height: 550px;
+            width: 100%;
+            /*border: 2px solid; */
+            background-color: #F3F3F3;
+
+        }
+
+        #projects260{
+
+            height: 250px;
+            width: 33%;
+            /* border: 2px solid; */
+            display: inline-block;
+            position: relative; top: 0px;
+        }
+
+        #whiteline1{
+
+            height: 200px;
+            width: 1px;
+            background-color:#F3F3F3;
+            margin-left: 480px;
+            margin-top: -130px;
+
+        }
+
+        #client120{
+
+            height: 250px;
+            width: 33%;
+            /* border: 2px solid; */
+            display: inline-block;
+            margin-left: -5px;
+        }
+
+        #coffee260{
+
+            height: 250px;
+            width: 33%;
+            /* border: 2px solid; */
+            display: inline-block;
+            margin-left: -5px;
+        }
+
+        #contactUs{
+
+            height: 800px;
+            width: 100%;
+            /* border: 2px solid; */
+            background-color: white;
+            margin-top: 50px;
+            margin-left: -2px;
+        }   
+
+        #teampara{
+
+            height: 40px;
+            width: 600px;
+            /* border: 2px solid; */
+            margin: auto;
+        }
+
+        #div3Team{
+
+            height: 340px;
+            width: 90%;
+            /* border: 2px solid; */
+            margin-left: 75px;
+            /* display: inline-block; */
+        }
+
+        #MarkL{
+
+            height: 340px;
+            width: 30%;
+            /*border: 2px solid; */
+            display: inline-block;
+            position: relative; top: -2px;
+            margin-left: 5px;
+            
+
+        }
+
+        #MarkpicBox{
+
+            height: 120px;
+            width: 120px;
+            /*border: 2px solid; */
+            margin-top: 110px;
+            display: inline-block;
+        
+        
+        }
+
+        #marknameBox{
+
+            height: 50px;
+            width: 200px;
+            /*border: 2px solid; */
+            margin-left: 130px;
+            margin-top: -150px;
+        }
+
+        #webdTitle{
+
+            height: 30px;
+            width: 150px;
+            /* border: 2px solid; */
+            margin-left: 130px;
+
+        }
+
+        #markDescription{
+
+            height: 50px;
+            width: 200px;
+            /* border: 2px solid; */
+            margin-left: 130px;
+            margin-top: 40px;
+        }
+
+        #MarkL1{
+
+            height: 340px;
+            width: 30%;
+            /* border: 2px solid; */
+            display: inline-block;
+            position: relative; top: -2px;
+            margin-left: 40px;
+        
+        }
+
+        #MarkL2{
+
+            height: 340px;
+            width: 30%;
+            /*border: 2px solid; */
+            display: inline-block;
+            position: relative; top: 30px;
+            margin-left: 50px;
+
+        }
+
+        #boxContact{
+
+            height: 100px;
+            width: 100%;
+            /* border: 2px solid; */
+            position: relative; top: 100px;
+        }
+
+        #addBox{
+
+            height: 100px;
+            width: 33%;
+            /* border: 2px solid; */
+            display: inline-block;
+            position: relative; top: -45px;
+
+        }
+
+
+        #addBox1{
+
+            height: 100px;
+            width: 33%;
+            /* border: 2px solid; */
+            display: inline-block;
+
+        }
+
+        #inputBox{
+
+            width: 90%;
+            height: 400px;
+            /* border: 2px solid; */
+            margin-top: 150px;
+            margin-left: 60px;
+        }
+
+        #button3{
+
+            width: 140px;
+            height: 45px;
+            background-color: #f1d204;
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 10%;
+        }
+
+        #PISbox{
+
+            width: 100%;
+            height: 350px;
+            border: 2px solid;
+            background-color: #292825;
+
+        }
+
+        #copyR{
+
+            width: 100%;
+            height: 100px;
+            border: 2px solid;
+            background-color: #242320;
+        }
+
+        #products{
+
+            height: 300px;
+            width: 30%;
+            /* border: 2px solid; */
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <!-- Main background picture-->
+    <div id="main">
+
+        <!--LOGO-->
+        <div id="logo">
+
+            <img src="images/logo.png" alt="">
+        </div>
+
+        <!--Nav Bar-->
+
+        <ul id="nav">
+
+            <li id="navlist"><a id="cursor" href="#">Home</a></li>
+            <li id="navlist"><a id="cursor" href="#about">About</li>
+            <li id="navlist"><a  id="cursor" href="#">Contact</a></li>
+            <li id="navlist"><a id="cursor" href="#purpleBackground">Portfolio</a></li>
+            <li id="navlist"><a id="cursor" href="#">Reviews</a></li>
+            <li id="navlist"><a id="cursor" href="#">services</a></li>
+            <li id="navlist"><a id="cursor" href="#">Login</a></li>
+
+        </ul>   
+
+        <!--Header content-->
+        <div id="content">
+
+            <h1 id="contentHeading">Clean<span id="dot">.</span>Slick<span id="dot">.</span>Pixel Perfect</h1>
+
+
+            <p style="margin-left: 110px; color: white; margin-top: 20px; font-size: 18px;">lldy is a great one-page theme, perfect for developers and designers but also for someone who just wants a <br><span style="margin-left: 220px; position: relative; top: 8px;">new website for his business. Try it now!</span> </p>
+       
+            <!--Creating two buttons-->
+            <button id="button1">Learn More</button>
+
+            <button id="button2">Download</button>
+       
+        </div>
+
+     
+    </div>
+    
+    <!-- about -->
+    <div id="about">
+
+
+        <!--Heading"About"-->
+
+        <h1 id="aboutHeading">About</h1>
+
+
+        <!--Paragraph-->
+        <p style="margin-left: 20%; margin-top: 60px;line-height: 24px;color: #8C9597;">It is an amazng one-page theme with great features that offers
+             an incredible experience. It is easy to install, make changes, 
+             adapt for your <br> business. A modern design with clean lines and styling 
+             for a wide variety of content, exactly how a business design should be. 
+             You can add<br> <span style="margin-left: 20%;"> as many images as you want to the main header area and turn 
+             them into slider.</span></p>
+
+
+        <!-- for 3 colors strips-->
+
+        <div id="strip3Bars">
+
+                <!--Typography 60%-->
+            
+                <div id="Typography">
+
+                    <!--Creating small box-->
+                    <div id="SmallBox1">
+
+                        <!--Small percentage box-->
+                        <div style="color: white; font-size: 18px; margin-left: 20px; position: relative; top: 2px;">60%</div>
+                    
+                    </div>
+
+                    <!--Color line-->
+                    <div style="width: 234px; height: 0px; border: 2px solid #F18B6D; margin-top: 20px; margin-left: 0px; "></div>
+
+                    <!--small Circle-->
+                    <div style="width: 1px; height: 1px; border: 4px solid #F18B6D; border-radius: 50%; margin-left: 230px; margin-top: -6.5px;"></div>
+
+                    <!-- thin grey line-->
+                    <div style="height: 0px; width: 140px; border: 1px solid#c2c1c1; margin-left: 238px; margin-top: -6px; "></div>
+
+                    <!--writing A Typography-->
+                    
+
+                    <p style="font-size: 17px; color:#F18B6D; margin-top: 20px; margin-left: 20px;">Typography</p>
+                    
+                </div>
+
+
+           
+                <!--Design 82%-->
+
+                <div id="Typography1">
+
+                        <!--Creating small box-->
+                        <div id="SmallBox2">
+        
+                            <!--Small percentage box-->
+                            <div style="color: white; font-size: 18px; margin-left: 20px; position: relative; top: 2px;">82%</div>
+                        
+                        </div>
+                        
+                        <!--Color line-->
+                        <div style="width: 280px; height: 0px; border: 2px solid #F1D204; margin-top: 20px; margin-left: 0px; "></div>
+    
+                        <!--small Circle-->
+                        <div style="width: 1px; height: 1px; border: 4px solid #F1D204; border-radius: 50%; margin-left: 279px; margin-top: -6.5px;"></div>
+    
+                        <!-- thin grey line-->
+                        <div style="height: 0px; width: 90px; border: 1px solid#c2c1c1; margin-left: 288px; margin-top: -6px; "></div>
+    
+                        <!--writing A Typography-->
+                        <p style="font-size: 17px; color:#F1D204; margin-top: 20px; margin-left: 24px;">Design</p>
+                        
+                </div>
+
+
+                <!-- Development 86% -->
+                <div id="Typography2">
+
+                        <!--Creating small box-->
+                        <div id="SmallBox3">
+        
+                            <!--Small percentage box-->
+                            <div style="color: white; font-size: 18px; margin-left: 20px; position: relative; top: 2px;">86%</div>
+                        
+                        </div>
+                            
+                            <!--Color line-->
+                            <div style="width: 320px; height: 0px; border: 2px solid #6A4D8A; margin-top: 20px; margin-left: 0px; "></div>
+        
+                            <!--small Circle-->
+                            <div style="width: 1px; height: 1px; border: 4px solid #6A4D8A; border-radius: 50%; margin-left: 324px; margin-top: -6.5px;"></div>
+        
+                            <!-- thin grey line-->
+                            <div style="height: 0px; width: 45px; border: 1px solid#c2c1c1; margin-left: 333px; margin-top: -6px; "></div>
+        
+                            <!--writing A Typography-->
+                            <p style="font-size: 17px; color:#6A4D8A; margin-top: 20px; margin-left: 22px;">Development</p>
+                            
+                </div>
+            
+                            <!--3 icons-->
+                            <!--A icon-->
+                            <div id="Aicon">
+                                <i class="fa fa-font"></i>
+                            </div>    
+
+                            <!--Pencil Icon-->
+                            <div id="pencilIcon">
+                                <i class="fa fa-pencil"></i>
+                            </div>
+
+                            <!--Development Icon-->
+                            <div id="devIcon">
+                                <i class="fa fa-code"></i>
+                            </div>
+        </div>
+
+
+
+    </div>
+
+    <!--PROJECTS SECTION-->
+    
+    <div id="projects">
+
+        <!--writing the word project in center-->
+        <h1 style="margin-left: 600px; position: relative; top: 70px; color:#545454; font-size: 38px; font-weight: bold;">Projects</h1>
+        <h4 style="margin-left: 560px; position: relative; top: 80px; color: #8C9597; font-weight: bold;">You'll love our work. Check it out!</h4>
+
+    </div>
+
+    <!--PICTURES SECTION-->
+
+    <div id="picsRow">
+         <!--1st of 4 pics in the pic row-->
+        
+            <img src="./images/Pic1.jpg" alt="img not found" width="337px" height="340px" >
+    
+        <!--2nd of 4 pics in the pics row-->
+
+            <img src="./images/Pic2.jpg" alt="img not found" width="337px" height="340px" style="margin-left: -4px;">
+
+        <!--3rd of 4 pics in the pics row-->
+
+            <img src="./images/Pic3.jpg" alt="img not found" width="337px" height="340px" style="margin-left: -4px;">
+
+        <!--4th of 4 pics in the pics row-->
+
+            <img src="./images/Pic4.jpg" alt="img not found" width="338px" height="340px" style="margin-left: -4px;">
+
+
+    </div>
+
+
+    <!--TESTOMONIALS SECTION-->
+
+    <div id="purpleBackground">
+
+        <!--testimonial heading-->
+        <div id="testimonials">
+
+            <p style="font-size: 50px; color:#FFFFFF; position: relative;left: 19px;">Testimonials</p>
+        </div>
+        
+        <!--Mike Muller picture-->
+        <div id="mikeMPic">
+
+            <!--Mike Muller pic-->
+            <img src="./images/Testmonial.jpg" alt="img not found" id="mike1">
+
+        </div>
+
+
+        <!--Mike Muller Testimonials-->
+        <div id="mikeWords">
+
+            <p style="color:#F7F6F9; font-size: 17px; margin-top: 44px; line-height: 24px;">"Awesome theme with great design and awesome support. If you don't know how to code your own word-press theme, but you still<br>
+                <span style="margin-left: 10px;">want a good looking website for your business, ILLdy might be exactly what you need. It is a slick theme with lots of features
+                to</span><br><span style="margin-left: 45%;">choose from."</span></p>
+
+        </div>
+
+        <!--Mike Muller name-->
+        <div id="mikeName">
+        
+           <p style="font-family: poppins; color:#FFFFFF; font-size: 20px; font-weight: bold; margin-left:10px; margin-top: 5px; ">Mike Muller</p> 
+
+        </div>
+
+    </div>
+
+
+    <!--SERVICES SECTION-->
+    <div id="Services">
+
+        <!--writing the word services-->
+        <h1 style="font-size: 36px; font-family: poppins; margin-left: 590px; margin-top: 60px; color: #545454;">Services</h1>
+
+        <!--Statement below services-->
+        <p style="font-size: 16px; font-family: lato; font-weight: bold; color: #8C9597; margin-left: 400px; margin-top: 15px; line-height: 26px;">In order to help you grow your business, our carefully selected experts can advise you<br>
+            <span style="margin-left: 200px;">in the following areas:</span></p>
+
+
+        <!--Web Design first section-->
+        <div id="webDesign">
+
+            <!--webdesignPencil-->
+            <div id="pencil2">
+
+                <i class="fa fa-pencil" id="pencil2Icon"></i>
+            </div>
+
+            <!--webdesignLogo-->
+            <div id="webDesignLogo">
+
+                <!--webdesignlogowriting-->
+                <h1 style="font-size: 23px; font-family: poppins; color: #F18B6D; margin-left: 10px;">Web Design</h1>
+
+                <!--Webdesignwrittenstatement-->
+            </div>
+            <p style="margin-left: 30px;word-spacing: 5px;line-height:20px; margin-top: 30px; color:#8C95A4; font-family: latto; ">Consectetur adipiscing elit. Praesent molestie urna <br> 
+                hendrerit erat tincidunt tempus. Aliquam a leo risus. <br> 
+                Fusce a metus non augue dapibus porttitor at in <br>
+                mauris. Pellentesque commodo...</p>
+
+        </div>  
+        
+        <!--WebDevelopment Second section-->
+        <div id="webDesign2">
+
+            <!--webdevelopment-->
+            <div id="pencil2">
+
+                <i class="fa fa-code" id="pencil2Icon" style="color:#F1D204; margin-left: 3px;"></i>
+            </div>
+
+            <!--webdevelopmentLogo-->
+            <div id="webDesignLogo">
+
+                <!--webdevelopmentlogowriting-->
+                <h1 style="font-size: 23px; font-family: poppins; color:#F1D204; margin-left: 0px; margin-top: 15px;">Web Development</h1>
+
+                <!--Webdevelopmentwrittenstatement-->
+            </div>
+            <p style="margin-left: 30px;word-spacing: 5px;line-height:20px; margin-top: 30px; color:#8C95A4; font-family: latto; ">Consectetur adipiscing elit. Praesent molestie urna <br> 
+                hendrerit erat tincidunt tempus. Aliquam a leo risus. <br> 
+                Fusce a metus non augue dapibus porttitor at in <br>
+                mauris. Pellentesque commodo...</p>
+
+        </div>  
+
+        <!--SEO Analysis-->
+        <div id="webDesign3">
+
+            <!--SEOAnalysis-->
+            <div id="pencil2">
+
+                <i class="fa fa-search" id="pencil2Icon" style="color:#6A4D8A; margin-left: 6px;"></i>
+            </div>
+
+            <!--seoAnalysisLogo-->
+            <div id="webDesignLogo">
+
+                <!--SEOanalysislogowriting-->
+                <h1 style="font-size: 23px; font-family: poppins; color:#6A4D8A; margin-left: 20px;">SEO Analysis</h1>
+
+                <!--SEOAnalysiswrittenstatement-->
+            </div>
+            <p style="margin-left: 30px;word-spacing: 5px;line-height:20px; margin-top: 30px; color:#8C95A4; font-family: latto; ">Consectetur adipiscing elit. Praesent molestie urna <br> 
+                hendrerit erat tincidunt tempus. Aliquam a leo risus. <br> 
+                Fusce a metus non augue dapibus porttitor at in <br>
+                mauris. Pellentesque commodo...</p>
+
+        </div>  
+
+    </div>
+
+
+    <!--LATEST NEWS SECTION-->
+    <div id="latestNews">
+
+        <!--Latest news headings box-->
+        <div id="newsHeading">
+
+            <!--news heading writing-->
+            <h3 style="font-size: 35px; color: #FFFFFF; font-family: poppins; margin-left: 10px;">Latest News</h3>
+
+        </div>
+
+            <!--leatest news writing-->
+            <p style="margin-left: 320px; color: #8C9597; margin-top: 70px;">If you are interested in the latest articles in the industry, take a sneak peek at our blog. You have nothing to loose!</p>
+
+            <!--see blog yellow button-->
+            
+            <button id="seeblogButton">
+
+                <div id="chevronCircle">
+                    <i class="fa fa-chevron-circle-right"></i> 
+                    
+                </div>
+
+                <!--See blog writng inside the box-->
+                <h3 style="margin-left: 20px; margin-top: -21px;">See blog</h3>
+
+            </button>
+        
+        
+        <!--Box for three landscape pictures-->
+        <div id="landscapeBox3"> 
+            
+            
+        <!--Landscape Picture 1--> 
+        <div id="landscape1">
+
+            <!--attaching the landscape one image-->
+            <img src="./images/news1.jpg" alt="img not found" id="land1"> 
+
+
+            <!--first heading below pic-->
+            <h2 id="land1Heading1">We Have Made Illdy <br> Theme SEO Friendly</h2>
+
+            <!--paragraph below pic-->
+            <p style="padding-left: 20px; padding-top: 40px; line-height: 20px; word-spacing: 5px; font-size: 16px;
+            color: #5e5e5e">Illdy One Page WordPress theme is fully <br>
+            SEO friendly and is ready to help you to <br>
+            achieve the highest rankings…</p>
+
+            <!--Checron Class icon-->
+            <div id="L1hov">
+            <i class="fa fa-chevron-circle-right" style="margin-top: 60px;padding: 3px  ; margin-left: 20px; color:#F1D204;
+            display: inline-block;">Read More</i>
+
+            <!--Read More at the end infron of Chevron-->
+            <!-- <p style="color:#F1D204; margin-left: 50px; margin-top: -18px;">Read More</p> -->
+            </div>
+        </div>  
+        
+        
+        <!--Landscape Picture 2--> 
+        <div id="landscape2">
+
+            <!--attaching the landscape one image-->
+            <img src="./images/news2.jpg" alt="img not found" id="land1"> 
+
+
+            <!--first heading below pic-->
+            <h2 id="land1Heading1">Stunning One Page Word <br> Press Theme For The <br> Masses</h2>
+
+            <!--paragraph below pic-->
+            <p style="padding-left: 20px; padding-top: 28px; line-height: 20px; word-spacing: 5px; font-size: 16px;
+            color: #5e5e5e">This theme is not just free, it is free for <br>
+            private and commercial use since it is <br>
+            licensed under GPL…</p>
+
+            <!--Checron Class icon-->
+            <i class="fa fa-chevron-circle-right" style="margin-top: 45px; margin-left: 20px; color:#F1D204;
+            display: inline-block;"></i>
+
+            <!--Read More at the end infron of Chevron-->
+            <p style="color:#F1D204; margin-left: 10px; margin-top: -30px; display: inline-block;">Read More</p>
+
+        </div>  
+
+        <!--Landscape Picture 3--> 
+        <div id="landscape3">
+
+            <!--attaching the landscape one image-->
+            <img src="./images/news3.jpg" alt="img not found" id="land1"> 
+
+
+            <!--first heading below pic-->
+            <h2 id="land1Heading1">Hello World!</h2>
+
+            <!--paragraph below pic-->
+            <p style="padding-left: 20px; padding-top: 65px; line-height: 20px; word-spacing: 5px; font-size: 16px;
+            color: #5e5e5e">Welcome to colorlib.com. This is our first <br>
+            post around Illdy WordPress theme. Now <br>
+            show that you can make out of it.…</p>
+
+            <!--Checron Class icon-->
+            <i class="fa fa-chevron-circle-right" style="margin-top: 64px; margin-left: 20px; color:#F1D204;
+            display: inline-block;"></i>
+
+            <!--Read More at the end infron of Chevron-->
+            <p style="color:#F1D204; margin-left: 50px; margin-top: -20px;">Read More</p>
+
+        </div>  
+
+        </div> 
+
+
+    </div>
+
+    <!--yellow numbers strip-->
+
+    <div id="yellownum">
+
+        <!--Creating project 260 box for numbers-->
+        <div id="projects260">
+
+            <h2 style="font-size: 70px; margin-left: 180px; margin-top: 50px; color:#FFFFFF ">260</h2>
+            <h3 style="font-size: 20px; margin-left: 180px; color: #FFFFFF">PROJECTS</h3>
+            <div id="whiteline1"></div>
+
+        </div>
+
+        <!--Creating client 120 box-->
+        <div id="client120">
+
+            <h2 style="font-size: 70px; margin-left: 180px; margin-top: 50px; color:#FFFFFF">120</h2>
+            <h3 style="font-size: 20px; margin-left: 180px; color: #FFFFFF">CLIENTS</h3>
+            <div id="whiteline1"></div>
+
+        </div>
+
+        <!--Creating client 260 coffees-->
+        <div id="coffee260">
+
+            <h2 style="font-size: 70px; margin-left: 180px; margin-top: 50px; color:#FFFFFF">260</h2>
+            <h3 style="font-size: 20px; margin-left: 180px; color: #FFFFFF">COFFEES</h3>
+            
+        </div>
+
+
+    </div>
+
+    <!--Team Section-->
+
+    <div id="Teams">
+
+        <!--writing the word teams-->
+        <div>
+        <h1 style="font-size: 36px; font-family: poppins; margin-left: 590px; position: relative; top: 30px; color: #545454;">Team</h1>
+        </div>  
+
+        <!--team paragraph-->
+        <div id="teampara">
+        <p style="padding-left: 20px; padding-top: 26px; line-height: 20px; word-spacing: 4px; font-size: 16px;
+        color: #5e5e5e">Meet the people that are going to take your business to the next level.</p>
+        </div>
+
+        <!--3 Div for team members-->
+        <div id="div3Team">
+
+            <!--MarkLawranceBox-->
+            <div id="MarkL">
+
+                <!--MarkLawrencePic-->
+                <div id="MarkpicBox">
+                    <img src="./images/MarkL.jpg" alt="img not found" height="120px" style="border-radius: 40%;">
+
+                </div>
+
+                <!--Name Mark Lawrance-->
+                <div id="marknameBox">
+                    <h3 style="font-size: 22px; font-family: poppins; color: #5e5e5e; padding-left: 0px; padding-top: 7px;">Mark Lawrance</h3>
+                </div>
+
+
+                <!--Web Designer title of Mark lawrance-->
+                <div id="webdTitle">
+                    <h4 style="font-family: sans-serif; color: rgb(241, 139, 109); font-size: 16px; padding-top: 5px;">Web Designer</h4>
+                </div>
+
+                <!--Description of Mark Lawrance-->
+                <div id="markDescription">
+
+                        <p style="color: #8c9597; font-size: 16px;">Creative, detail-oriented, always focused.</p>
+                </div>
+
+                <!--Facebook, Twitter, Instagram -->
+                <div style="color:rgb(241, 139, 109); margin-left: 130px; margin-top: 40px; word-spacing: 5px;">
+
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                    
+                </div>
+
+            </div>
+    
+            <!--Jane Stenton Box-->
+            <div id="MarkL1">
+
+                <!--JaneStentonPic-->
+                <div id="MarkpicBox">
+                    <img src="./images/JaneS.jpg" alt="img not found" height="120px" style="border-radius: 40%;">
+
+                </div>
+
+                <!--Name Mark Lawrance-->
+                <div id="marknameBox">
+                    <h3 style="font-size: 22px; font-family: poppins; color: #5e5e5e; padding-left: 0px; padding-top: 7px;">Jane Stenton</h3>
+                </div>
+
+
+                <!--Web Designer title of Mark lawrance-->
+                <div id="webdTitle">
+                    <h4 style="font-family: sans-serif; color: #F1D204; font-size: 16px; padding-top: 5px;">SEO Specialist</h4>
+                </div>
+
+                <!--Description of Mark Lawrance--> 
+                <div id="markDescription">
+
+                        <p style="color: #8c9597; font-size: 16px;">Curious, tech-geeck, and gets serious when it comes to work.</p>
+                </div>
+
+                <!--Facebook, Twitter, Instagram -->
+                <div style="color:#F1D204; margin-left: 130px; margin-top: 40px; word-spacing: 5px;">
+
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                    
+                </div>
+   
+
+        </div>
+    
+        
+        <!--John Smith Box-->
+        
+        <div id="MarkL2" style="position: relative; top: -2px;">
+
+            <!--JaneStentonPic-->
+            <div id="MarkpicBox" style="position: relative; top: 0px;">
+            <img src="./images/JohnSmith.jpg" alt="img not found" height="120px" style="border-radius: 40%; position: relative; top: 0px">
+
+            </div>
+
+            <!--Name John Smith-->
+            <div id="marknameBox">
+                <h3 style="font-size: 22px; font-family: poppins; color: #5e5e5e; padding-left: 0px; padding-top: 7px;">John Smith</h3>
+            </div>
+
+
+            <!--Web Designer title of John Smith-->
+            <div id="webdTitle">
+                <h4 style="font-family: sans-serif; color: rgb(106, 77, 138); font-size: 16px; padding-top: 5px;">Developer</h4>
+            </div>
+
+            <!--Description of John Smith--> 
+            <div id="markDescription">
+
+                    <p style="color: #8c9597; font-size: 16px;">Enthusiastic, passionate, with great sense of humor</p>
+            </div>
+
+            <!--Facebook, Twitter, Instagram -->
+            <div style="color:rgb(106, 77, 138); margin-left: 130px; margin-top: 40px; word-spacing: 5px;">
+
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!--Contact US-->
+    <div id="contactUs">
+
+        <!--writing the word contact us-->
+        <div>
+        <h1 style="font-size: 36px; font-family: poppins; margin-left: 590px; position: relative; top: 30px; color: #545454;">Contact Us</h1>
+        </div> 
+        
+        <!--Creating box for address and customer suport-->
+        <div id="boxContact">
+
+            <!--Address box-->
+            <div id="addBox" style="border:none">
+
+                <!--Address Heading-->
+                <div style="height: 40px; width: 100px; margin-left: 80px; position: relative; top: 50px">
+                <h4 style="color: #f1d204; font-size: 16px; font-family: sans-serif;"> Address</h4>
+                </div>
+
+                <!--Thin Grey line-->
+                <div style="height: 60px; width: 1px; background-color: grey; margin-left: 170px; position: relative; top: 10px"></div>
+
+                <!--Written address-->
+                <div style=" height: 60px; width: 240px; margin-left: 190px; position: relative; top: -50px">
+                <p style="color: #8c9597; font-size: 16px; font-family: sans-serif; ">Street 221B Baker Street, <br> London, UK</p>
+                </div>
+            
+            </div>
+
+            <!--Customer Support Box-->
+            <!--Address box-->
+            <div id="addBox1">
+
+                <!--Customer support Heading-->
+                <div style="height: 40px; width: 141px; margin-left: 40px; position: relative; top: 45px">
+                <h4 style="color: #f1d204; font-size: 16px; font-family: sans-serif;">Customer Support</h4>
+                </div>
+
+                <!--Thin Grey line-->
+                <div style="height: 60px; width: 1px; background-color: grey; margin-left: 210px; position: relative; top: 5px;"></div>
+
+                <!--Written address-->
+                <div style=" height: 60px; width: 240p; margin-left: 240px; position: relative; top: -55px">
+                <p style="color: #8c9597; font-size: 16px; font-family: sans-serif; ">E-mail: contact@site.com <br> Phone: (555) 555-5555</p>
+                </div>
+
+                <!--Facebook, Twitter, Instagram -->
+                <div style="margin-left: 850px; position: relative; top: -110px;width: 200px;">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i> 
+                </div>
+
+               
+                </div>
+
+            </div>
+
+            <!--input fields-->
+            <div id="inputBox">
+
+                <!--First name div-->
+                <div style="Height: 60px; width: 350px; margin-top: 40px; display: inline-block;
+                margin-left: 20px;">
+                <h4 style="color: #8c9597; font-family: sans-serif;">Your Name(required)</h4>
+                <input type="text" placeholder="Name" style="height: 30px; width: 300px; 
+                border: 1px solid  grey; background-color: #FCFCFC;"/>
+                </div>
+
+                <!--Your Email-->
+                <div style="Height: 60px; width: 350px; margin-top: 40px; display: inline-block;
+                margin-left: 50px;">
+                <h4 style="color: #8c9597; font-family: sans-serif;">Your Email(required)</h4>
+                <input type="Email" placeholder="Email" style="height: 30px; width: 300px; 
+                border: 1px solid  grey; background-color: #FCFCFC;"/>
+                </div>
+
+                <!--Subject-->
+                <div style="Height: 60px; width: 350px; margin-top: 40px; display: inline-block;
+                margin-left: 60px;">
+                <h4 style="color: #8c9597; font-family: sans-serif;">Subject</h4>
+                <input type="text" placeholder="Subject" style="height: 30px; width: 300px; 
+                border: 1px solid  grey; background-color: #FCFCFC;"/>
+                </div>
+
+                <!--Your Message-->
+                <div style="Height: 230px; width: 1178px; margin-top: 40px; margin-left: 20px;">
+                <h4 style="color: #8c9597; font-family: sans-serif;">Your Message</h4>
+                <input type="text" style="height: 210px; width: 1177px; 
+                border: 1px solid  grey; background-color: #FCFCFC;"/>
+                </div>
+
+
+                </div>
+
+
+                <!--Send Button-->
+                <button id="button3" style="margin-left: 1140px; margin-top: 30px;">Send</button>
+
+        </div>
+
+
+            <!--PRODUCT INFORMATION SUPPORT-->
+            <div id="PISbox">
+
+                <!--Products Div-->
+                <div id="products">
+
+                    <!--Products word-->
+                    <h1 style="font-size: 23px; font-family: poppins; color: #FFFFFF; margin-left: 40px;
+                    margin-top: 50px;">PRODUCTS</h1>
+
+                    <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                    margin-top: 20px;">>   Our Work</h4>
+
+                    <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                    margin-top: 20px;">>   Club</h4>
+
+                    <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                    margin-top: 20px;">>   News</h4>
+
+                    <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                    margin-top: 20px;">>   Announcement</h4>
+                </div>
+
+                <!--Information Div-->
+                <div id="products">
+
+                    <!--Products word-->
+                    <h1 style="font-size: 23px; font-family: poppins; color: #FFFFFF; margin-left: 40px;
+                    margin-top: 50px;">INFORMATION</h1>
+
+                    <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                    margin-top: 20px;">>   Pricing</h4>
+
+                    <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                    margin-top: 20px;">>   Terms</h4>
+
+                    <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                    margin-top: 20px;">>   Affiliates</h4>
+
+                    <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                    margin-top: 20px;">>   Blog</h4>
+                
+            </div>
+
+                <!--Support Div-->
+                <div id="products">
+
+                <!--Products word-->
+                <h1 style="font-size: 23px; font-family: poppins; color: #FFFFFF; margin-left: 40px;
+                margin-top: 50px;">SUPPORT</h1>
+
+                <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                margin-top: 20px;">>   Documentation</h4>
+
+                <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                margin-top: 20px;">>   FAQs</h4>
+
+                <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                margin-top: 20px;">>   Forums</h4>
+
+                <h4 style="color:#8c9597; font-family: sans-serif; font-size: 15px; margin-left: 40px;
+                margin-top: 20px;">>   Contact</h4>
+
+            </div>
+
+
+
+            </div>
+
+
+            <!--Copyright DIV-->
+            <div id="copyR">
+
+            <!--THE END LINE-->
+            <p style="margin-left: 500px; margin-top: 40px;"><span style="color:#8c9597; font-size: 15px; ">Theme: Illdy.</span><span style="color: #FFFFFF;"> &copy; Copyright 2017. All Rights Reserved.</span></p>
+            </div>
+
+    </div>
+</body>
+
+</html>
